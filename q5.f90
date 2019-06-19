@@ -6,11 +6,11 @@ real :: r,l
 
 v = pi * r**2 *l
 
-end function calculate(r,l)
+end function calculate
 
 program q5
 implicit none
-
+real :: calculate
 real :: r=2.0
 real :: l=1.5
 print*,calculate(r,l)
