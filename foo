@@ -1,0 +1,570 @@
+==164== Memcheck, a memory error detector
+==164== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==164== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==164== Command: ./a.out
+==164== 
+==164== Use of uninitialised value of size 8
+==164==    at 0x1089A3: __game_MOD_shuffle (in /home/amahmood/fortran-practice/chat-5-exercise/chat-5/a.out)
+==164==    by 0x108B4E: MAIN__ (in /home/amahmood/fortran-practice/chat-5-exercise/chat-5/a.out)
+==164==    by 0x108B96: main (in /home/amahmood/fortran-practice/chat-5-exercise/chat-5/a.out)
+==164== 
+==164== Use of uninitialised value of size 8
+==164==    at 0x1089CF: __game_MOD_shuffle (in /home/amahmood/fortran-practice/chat-5-exercise/chat-5/a.out)
+==164==    by 0x2100108B4E: ???
+==164==    by 0x108B96: main (in /home/amahmood/fortran-practice/chat-5-exercise/chat-5/a.out)
+==164== 
+==164== Use of uninitialised value of size 8
+==164==    at 0x1089E9: __game_MOD_shuffle (in /home/amahmood/fortran-practice/chat-5-exercise/chat-5/a.out)
+==164==    by 0x2100108B4E: ???
+==164==    by 0x108B96: main (in /home/amahmood/fortran-practice/chat-5-exercise/chat-5/a.out)
+==164== 
+==164== Use of uninitialised value of size 8
+==164==    at 0x1089A3: __game_MOD_shuffle (in /home/amahmood/fortran-practice/chat-5-exercise/chat-5/a.out)
+==164==    by 0x3400108B4E: ???
+==164==    by 0x108B96: main (in /home/amahmood/fortran-practice/chat-5-exercise/chat-5/a.out)
+==164== 
+==164== Use of uninitialised value of size 8
+==164==    at 0x1089CF: __game_MOD_shuffle (in /home/amahmood/fortran-practice/chat-5-exercise/chat-5/a.out)
+==164==    by 0x900108B4E: ???
+==164==    by 0x108B96: main (in /home/amahmood/fortran-practice/chat-5-exercise/chat-5/a.out)
+==164== 
+==164== Use of uninitialised value of size 8
+==164==    at 0x1089E9: __game_MOD_shuffle (in /home/amahmood/fortran-practice/chat-5-exercise/chat-5/a.out)
+==164==    by 0x900108B4E: ???
+==164==    by 0x108B96: main (in /home/amahmood/fortran-practice/chat-5-exercise/chat-5/a.out)
+==164== 
+==164== Use of uninitialised value of size 8
+==164==    at 0x1089A3: __game_MOD_shuffle (in /home/amahmood/fortran-practice/chat-5-exercise/chat-5/a.out)
+==164==    by 0x3300108B4E: ???
+==164==    by 0x108B96: main (in /home/amahmood/fortran-practice/chat-5-exercise/chat-5/a.out)
+==164== 
+==164== Use of uninitialised value of size 8
+==164==    at 0x1089CF: __game_MOD_shuffle (in /home/amahmood/fortran-practice/chat-5-exercise/chat-5/a.out)
+==164==    by 0x1A00108B4E: ???
+==164==    by 0x108B96: main (in /home/amahmood/fortran-practice/chat-5-exercise/chat-5/a.out)
+==164== 
+==164== Use of uninitialised value of size 8
+==164==    at 0x1089E9: __game_MOD_shuffle (in /home/amahmood/fortran-practice/chat-5-exercise/chat-5/a.out)
+==164==    by 0x1A00108B4E: ???
+==164==    by 0x108B96: main (in /home/amahmood/fortran-practice/chat-5-exercise/chat-5/a.out)
+==164== 
+==164== Use of uninitialised value of size 8
+==164==    at 0x1089A3: __game_MOD_shuffle (in /home/amahmood/fortran-practice/chat-5-exercise/chat-5/a.out)
+==164==    by 0x3200108B4E: ???
+==164==    by 0x108B96: main (in /home/amahmood/fortran-practice/chat-5-exercise/chat-5/a.out)
+==164== 
+==164== Use of uninitialised value of size 8
+==164==    at 0x1089CF: __game_MOD_shuffle (in /home/amahmood/fortran-practice/chat-5-exercise/chat-5/a.out)
+==164==    by 0x700108B4E: ???
+==164==    by 0x108B96: main (in /home/amahmood/fortran-practice/chat-5-exercise/chat-5/a.out)
+==164== 
+==164== Use of uninitialised value of size 8
+==164==    at 0x1089E9: __game_MOD_shuffle (in /home/amahmood/fortran-practice/chat-5-exercise/chat-5/a.out)
+==164==    by 0x700108B4E: ???
+==164==    by 0x108B96: main (in /home/amahmood/fortran-practice/chat-5-exercise/chat-5/a.out)
+==164== 
+==164== Use of uninitialised value of size 8
+==164==    at 0x1089A3: __game_MOD_shuffle (in /home/amahmood/fortran-practice/chat-5-exercise/chat-5/a.out)
+==164==    by 0x3100108B4E: ???
+==164==    by 0x108B96: main (in /home/amahmood/fortran-practice/chat-5-exercise/chat-5/a.out)
+==164== 
+==164== Use of uninitialised value of size 8
+==164==    at 0x1089CF: __game_MOD_shuffle (in /home/amahmood/fortran-practice/chat-5-exercise/chat-5/a.out)
+==164==    by 0x1C00108B4E: ???
+==164==    by 0x108B96: main (in /home/amahmood/fortran-practice/chat-5-exercise/chat-5/a.out)
+==164== 
+==164== Use of uninitialised value of size 8
+==164==    at 0x1089E9: __game_MOD_shuffle (in /home/amahmood/fortran-practice/chat-5-exercise/chat-5/a.out)
+==164==    by 0x1C00108B4E: ???
+==164==    by 0x108B96: main (in /home/amahmood/fortran-practice/chat-5-exercise/chat-5/a.out)
+==164== 
+==164== Use of uninitialised value of size 8
+==164==    at 0x1089A3: __game_MOD_shuffle (in /home/amahmood/fortran-practice/chat-5-exercise/chat-5/a.out)
+==164==    by 0x3000108B4E: ???
+==164==    by 0x108B96: main (in /home/amahmood/fortran-practice/chat-5-exercise/chat-5/a.out)
+==164== 
+==164== Use of uninitialised value of size 8
+==164==    at 0x1089CF: __game_MOD_shuffle (in /home/amahmood/fortran-practice/chat-5-exercise/chat-5/a.out)
+==164==    by 0x400108B4E: ???
+==164==    by 0x108B96: main (in /home/amahmood/fortran-practice/chat-5-exercise/chat-5/a.out)
+==164== 
+==164== Use of uninitialised value of size 8
+==164==    at 0x1089E9: __game_MOD_shuffle (in /home/amahmood/fortran-practice/chat-5-exercise/chat-5/a.out)
+==164==    by 0x400108B4E: ???
+==164==    by 0x108B96: main (in /home/amahmood/fortran-practice/chat-5-exercise/chat-5/a.out)
+==164== 
+==164== Use of uninitialised value of size 8
+==164==    at 0x1089A3: __game_MOD_shuffle (in /home/amahmood/fortran-practice/chat-5-exercise/chat-5/a.out)
+==164==    by 0x2F00108B4E: ???
+==164==    by 0x108B96: main (in /home/amahmood/fortran-practice/chat-5-exercise/chat-5/a.out)
+==164== 
+==164== Use of uninitialised value of size 8
+==164==    at 0x1089CF: __game_MOD_shuffle (in /home/amahmood/fortran-practice/chat-5-exercise/chat-5/a.out)
+==164==    by 0x1800108B4E: ???
+==164==    by 0x108B96: main (in /home/amahmood/fortran-practice/chat-5-exercise/chat-5/a.out)
+==164== 
+==164== Use of uninitialised value of size 8
+==164==    at 0x1089E9: __game_MOD_shuffle (in /home/amahmood/fortran-practice/chat-5-exercise/chat-5/a.out)
+==164==    by 0x1800108B4E: ???
+==164==    by 0x108B96: main (in /home/amahmood/fortran-practice/chat-5-exercise/chat-5/a.out)
+==164== 
+==164== Use of uninitialised value of size 8
+==164==    at 0x1089A3: __game_MOD_shuffle (in /home/amahmood/fortran-practice/chat-5-exercise/chat-5/a.out)
+==164==    by 0x2E00108B4E: ???
+==164==    by 0x108B96: main (in /home/amahmood/fortran-practice/chat-5-exercise/chat-5/a.out)
+==164== 
+==164== Use of uninitialised value of size 8
+==164==    at 0x1089CF: __game_MOD_shuffle (in /home/amahmood/fortran-practice/chat-5-exercise/chat-5/a.out)
+==164==    by 0x1600108B4E: ???
+==164==    by 0x108B96: main (in /home/amahmood/fortran-practice/chat-5-exercise/chat-5/a.out)
+==164== 
+==164== Use of uninitialised value of size 8
+==164==    at 0x1089E9: __game_MOD_shuffle (in /home/amahmood/fortran-practice/chat-5-exercise/chat-5/a.out)
+==164==    by 0x1600108B4E: ???
+==164==    by 0x108B96: main (in /home/amahmood/fortran-practice/chat-5-exercise/chat-5/a.out)
+==164== 
+==164== Use of uninitialised value of size 8
+==164==    at 0x1089A3: __game_MOD_shuffle (in /home/amahmood/fortran-practice/chat-5-exercise/chat-5/a.out)
+==164==    by 0x2D00108B4E: ???
+==164==    by 0x108B96: main (in /home/amahmood/fortran-practice/chat-5-exercise/chat-5/a.out)
+==164== 
+==164== Use of uninitialised value of size 8
+==164==    at 0x1089A3: __game_MOD_shuffle (in /home/amahmood/fortran-practice/chat-5-exercise/chat-5/a.out)
+==164==    by 0x2C00108B4E: ???
+==164==    by 0x108B96: main (in /home/amahmood/fortran-practice/chat-5-exercise/chat-5/a.out)
+==164== 
+==164== Use of uninitialised value of size 8
+==164==    at 0x1089CF: __game_MOD_shuffle (in /home/amahmood/fortran-practice/chat-5-exercise/chat-5/a.out)
+==164==    by 0x1F00108B4E: ???
+==164==    by 0x108B96: main (in /home/amahmood/fortran-practice/chat-5-exercise/chat-5/a.out)
+==164== 
+==164== Use of uninitialised value of size 8
+==164==    at 0x1089E9: __game_MOD_shuffle (in /home/amahmood/fortran-practice/chat-5-exercise/chat-5/a.out)
+==164==    by 0x1F00108B4E: ???
+==164==    by 0x108B96: main (in /home/amahmood/fortran-practice/chat-5-exercise/chat-5/a.out)
+==164== 
+==164== Use of uninitialised value of size 8
+==164==    at 0x1089A3: __game_MOD_shuffle (in /home/amahmood/fortran-practice/chat-5-exercise/chat-5/a.out)
+==164==    by 0x2B00108B4E: ???
+==164==    by 0x108B96: main (in /home/amahmood/fortran-practice/chat-5-exercise/chat-5/a.out)
+==164== 
+==164== Use of uninitialised value of size 8
+==164==    at 0x1089CF: __game_MOD_shuffle (in /home/amahmood/fortran-practice/chat-5-exercise/chat-5/a.out)
+==164==    by 0x1700108B4E: ???
+==164==    by 0x108B96: main (in /home/amahmood/fortran-practice/chat-5-exercise/chat-5/a.out)
+==164== 
+==164== Use of uninitialised value of size 8
+==164==    at 0x1089E9: __game_MOD_shuffle (in /home/amahmood/fortran-practice/chat-5-exercise/chat-5/a.out)
+==164==    by 0x1700108B4E: ???
+==164==    by 0x108B96: main (in /home/amahmood/fortran-practice/chat-5-exercise/chat-5/a.out)
+==164== 
+==164== Use of uninitialised value of size 8
+==164==    at 0x1089A3: __game_MOD_shuffle (in /home/amahmood/fortran-practice/chat-5-exercise/chat-5/a.out)
+==164==    by 0x2A00108B4E: ???
+==164==    by 0x108B96: main (in /home/amahmood/fortran-practice/chat-5-exercise/chat-5/a.out)
+==164== 
+==164== Use of uninitialised value of size 8
+==164==    at 0x1089CF: __game_MOD_shuffle (in /home/amahmood/fortran-practice/chat-5-exercise/chat-5/a.out)
+==164==    by 0x200108B4E: ???
+==164==    by 0x108B96: main (in /home/amahmood/fortran-practice/chat-5-exercise/chat-5/a.out)
+==164== 
+==164== Use of uninitialised value of size 8
+==164==    at 0x1089E9: __game_MOD_shuffle (in /home/amahmood/fortran-practice/chat-5-exercise/chat-5/a.out)
+==164==    by 0x200108B4E: ???
+==164==    by 0x108B96: main (in /home/amahmood/fortran-practice/chat-5-exercise/chat-5/a.out)
+==164== 
+==164== Use of uninitialised value of size 8
+==164==    at 0x1089A3: __game_MOD_shuffle (in /home/amahmood/fortran-practice/chat-5-exercise/chat-5/a.out)
+==164==    by 0x2900108B4E: ???
+==164==    by 0x108B96: main (in /home/amahmood/fortran-practice/chat-5-exercise/chat-5/a.out)
+==164== 
+==164== Use of uninitialised value of size 8
+==164==    at 0x1089CF: __game_MOD_shuffle (in /home/amahmood/fortran-practice/chat-5-exercise/chat-5/a.out)
+==164==    by 0x2200108B4E: ???
+==164==    by 0x108B96: main (in /home/amahmood/fortran-practice/chat-5-exercise/chat-5/a.out)
+==164== 
+==164== Use of uninitialised value of size 8
+==164==    at 0x1089E9: __game_MOD_shuffle (in /home/amahmood/fortran-practice/chat-5-exercise/chat-5/a.out)
+==164==    by 0x2200108B4E: ???
+==164==    by 0x108B96: main (in /home/amahmood/fortran-practice/chat-5-exercise/chat-5/a.out)
+==164== 
+==164== Use of uninitialised value of size 8
+==164==    at 0x1089A3: __game_MOD_shuffle (in /home/amahmood/fortran-practice/chat-5-exercise/chat-5/a.out)
+==164==    by 0x2800108B4E: ???
+==164==    by 0x108B96: main (in /home/amahmood/fortran-practice/chat-5-exercise/chat-5/a.out)
+==164== 
+==164== Use of uninitialised value of size 8
+==164==    at 0x1089CF: __game_MOD_shuffle (in /home/amahmood/fortran-practice/chat-5-exercise/chat-5/a.out)
+==164==    by 0xB00108B4E: ???
+==164==    by 0x108B96: main (in /home/amahmood/fortran-practice/chat-5-exercise/chat-5/a.out)
+==164== 
+==164== Use of uninitialised value of size 8
+==164==    at 0x1089E9: __game_MOD_shuffle (in /home/amahmood/fortran-practice/chat-5-exercise/chat-5/a.out)
+==164==    by 0xB00108B4E: ???
+==164==    by 0x108B96: main (in /home/amahmood/fortran-practice/chat-5-exercise/chat-5/a.out)
+==164== 
+==164== Use of uninitialised value of size 8
+==164==    at 0x1089A3: __game_MOD_shuffle (in /home/amahmood/fortran-practice/chat-5-exercise/chat-5/a.out)
+==164==    by 0x2700108B4E: ???
+==164==    by 0x108B96: main (in /home/amahmood/fortran-practice/chat-5-exercise/chat-5/a.out)
+==164== 
+==164== Use of uninitialised value of size 8
+==164==    at 0x1089CF: __game_MOD_shuffle (in /home/amahmood/fortran-practice/chat-5-exercise/chat-5/a.out)
+==164==    by 0x800108B4E: ???
+==164==    by 0x108B96: main (in /home/amahmood/fortran-practice/chat-5-exercise/chat-5/a.out)
+==164== 
+==164== Use of uninitialised value of size 8
+==164==    at 0x1089E9: __game_MOD_shuffle (in /home/amahmood/fortran-practice/chat-5-exercise/chat-5/a.out)
+==164==    by 0x800108B4E: ???
+==164==    by 0x108B96: main (in /home/amahmood/fortran-practice/chat-5-exercise/chat-5/a.out)
+==164== 
+==164== Use of uninitialised value of size 8
+==164==    at 0x1089A3: __game_MOD_shuffle (in /home/amahmood/fortran-practice/chat-5-exercise/chat-5/a.out)
+==164==    by 0x2600108B4E: ???
+==164==    by 0x108B96: main (in /home/amahmood/fortran-practice/chat-5-exercise/chat-5/a.out)
+==164== 
+==164== Use of uninitialised value of size 8
+==164==    at 0x1089CF: __game_MOD_shuffle (in /home/amahmood/fortran-practice/chat-5-exercise/chat-5/a.out)
+==164==    by 0x1300108B4E: ???
+==164==    by 0x108B96: main (in /home/amahmood/fortran-practice/chat-5-exercise/chat-5/a.out)
+==164== 
+==164== Use of uninitialised value of size 8
+==164==    at 0x1089E9: __game_MOD_shuffle (in /home/amahmood/fortran-practice/chat-5-exercise/chat-5/a.out)
+==164==    by 0x1300108B4E: ???
+==164==    by 0x108B96: main (in /home/amahmood/fortran-practice/chat-5-exercise/chat-5/a.out)
+==164== 
+==164== Use of uninitialised value of size 8
+==164==    at 0x1089A3: __game_MOD_shuffle (in /home/amahmood/fortran-practice/chat-5-exercise/chat-5/a.out)
+==164==    by 0x2500108B4E: ???
+==164==    by 0x108B96: main (in /home/amahmood/fortran-practice/chat-5-exercise/chat-5/a.out)
+==164== 
+==164== Use of uninitialised value of size 8
+==164==    at 0x1089A3: __game_MOD_shuffle (in /home/amahmood/fortran-practice/chat-5-exercise/chat-5/a.out)
+==164==    by 0x2400108B4E: ???
+==164==    by 0x108B96: main (in /home/amahmood/fortran-practice/chat-5-exercise/chat-5/a.out)
+==164== 
+==164== Use of uninitialised value of size 8
+==164==    at 0x1089A3: __game_MOD_shuffle (in /home/amahmood/fortran-practice/chat-5-exercise/chat-5/a.out)
+==164==    by 0x2300108B4E: ???
+==164==    by 0x108B96: main (in /home/amahmood/fortran-practice/chat-5-exercise/chat-5/a.out)
+==164== 
+==164== Use of uninitialised value of size 8
+==164==    at 0x1089A3: __game_MOD_shuffle (in /home/amahmood/fortran-practice/chat-5-exercise/chat-5/a.out)
+==164==    by 0x2200108B4E: ???
+==164==    by 0x108B96: main (in /home/amahmood/fortran-practice/chat-5-exercise/chat-5/a.out)
+==164== 
+==164== Use of uninitialised value of size 8
+==164==    at 0x1089A3: __game_MOD_shuffle (in /home/amahmood/fortran-practice/chat-5-exercise/chat-5/a.out)
+==164==    by 0x2100108B4E: ???
+==164==    by 0x108B96: main (in /home/amahmood/fortran-practice/chat-5-exercise/chat-5/a.out)
+==164== 
+==164== Use of uninitialised value of size 8
+==164==    at 0x1089CF: __game_MOD_shuffle (in /home/amahmood/fortran-practice/chat-5-exercise/chat-5/a.out)
+==164==    by 0xA00108B4E: ???
+==164==    by 0x108B96: main (in /home/amahmood/fortran-practice/chat-5-exercise/chat-5/a.out)
+==164== 
+==164== Use of uninitialised value of size 8
+==164==    at 0x1089E9: __game_MOD_shuffle (in /home/amahmood/fortran-practice/chat-5-exercise/chat-5/a.out)
+==164==    by 0xA00108B4E: ???
+==164==    by 0x108B96: main (in /home/amahmood/fortran-practice/chat-5-exercise/chat-5/a.out)
+==164== 
+==164== Use of uninitialised value of size 8
+==164==    at 0x1089A3: __game_MOD_shuffle (in /home/amahmood/fortran-practice/chat-5-exercise/chat-5/a.out)
+==164==    by 0x2000108B4E: ???
+==164==    by 0x108B96: main (in /home/amahmood/fortran-practice/chat-5-exercise/chat-5/a.out)
+==164== 
+==164== Use of uninitialised value of size 8
+==164==    at 0x1089CF: __game_MOD_shuffle (in /home/amahmood/fortran-practice/chat-5-exercise/chat-5/a.out)
+==164==    by 0x1100108B4E: ???
+==164==    by 0x108B96: main (in /home/amahmood/fortran-practice/chat-5-exercise/chat-5/a.out)
+==164== 
+==164== Use of uninitialised value of size 8
+==164==    at 0x1089E9: __game_MOD_shuffle (in /home/amahmood/fortran-practice/chat-5-exercise/chat-5/a.out)
+==164==    by 0x1100108B4E: ???
+==164==    by 0x108B96: main (in /home/amahmood/fortran-practice/chat-5-exercise/chat-5/a.out)
+==164== 
+==164== Use of uninitialised value of size 8
+==164==    at 0x1089A3: __game_MOD_shuffle (in /home/amahmood/fortran-practice/chat-5-exercise/chat-5/a.out)
+==164==    by 0x1F00108B4E: ???
+==164==    by 0x108B96: main (in /home/amahmood/fortran-practice/chat-5-exercise/chat-5/a.out)
+==164== 
+==164== Use of uninitialised value of size 8
+==164==    at 0x1089A3: __game_MOD_shuffle (in /home/amahmood/fortran-practice/chat-5-exercise/chat-5/a.out)
+==164==    by 0x1E00108B4E: ???
+==164==    by 0x108B96: main (in /home/amahmood/fortran-practice/chat-5-exercise/chat-5/a.out)
+==164== 
+==164== Use of uninitialised value of size 8
+==164==    at 0x1089CF: __game_MOD_shuffle (in /home/amahmood/fortran-practice/chat-5-exercise/chat-5/a.out)
+==164==    by 0x1900108B4E: ???
+==164==    by 0x108B96: main (in /home/amahmood/fortran-practice/chat-5-exercise/chat-5/a.out)
+==164== 
+==164== Use of uninitialised value of size 8
+==164==    at 0x1089E9: __game_MOD_shuffle (in /home/amahmood/fortran-practice/chat-5-exercise/chat-5/a.out)
+==164==    by 0x1900108B4E: ???
+==164==    by 0x108B96: main (in /home/amahmood/fortran-practice/chat-5-exercise/chat-5/a.out)
+==164== 
+==164== Use of uninitialised value of size 8
+==164==    at 0x1089A3: __game_MOD_shuffle (in /home/amahmood/fortran-practice/chat-5-exercise/chat-5/a.out)
+==164==    by 0x1D00108B4E: ???
+==164==    by 0x108B96: main (in /home/amahmood/fortran-practice/chat-5-exercise/chat-5/a.out)
+==164== 
+==164== Use of uninitialised value of size 8
+==164==    at 0x1089CF: __game_MOD_shuffle (in /home/amahmood/fortran-practice/chat-5-exercise/chat-5/a.out)
+==164==    by 0x600108B4E: ???
+==164==    by 0x108B96: main (in /home/amahmood/fortran-practice/chat-5-exercise/chat-5/a.out)
+==164== 
+==164== Use of uninitialised value of size 8
+==164==    at 0x1089E9: __game_MOD_shuffle (in /home/amahmood/fortran-practice/chat-5-exercise/chat-5/a.out)
+==164==    by 0x600108B4E: ???
+==164==    by 0x108B96: main (in /home/amahmood/fortran-practice/chat-5-exercise/chat-5/a.out)
+==164== 
+==164== Use of uninitialised value of size 8
+==164==    at 0x1089A3: __game_MOD_shuffle (in /home/amahmood/fortran-practice/chat-5-exercise/chat-5/a.out)
+==164==    by 0x1C00108B4E: ???
+==164==    by 0x108B96: main (in /home/amahmood/fortran-practice/chat-5-exercise/chat-5/a.out)
+==164== 
+==164== Use of uninitialised value of size 8
+==164==    at 0x1089A3: __game_MOD_shuffle (in /home/amahmood/fortran-practice/chat-5-exercise/chat-5/a.out)
+==164==    by 0x1B00108B4E: ???
+==164==    by 0x108B96: main (in /home/amahmood/fortran-practice/chat-5-exercise/chat-5/a.out)
+==164== 
+==164== Use of uninitialised value of size 8
+==164==    at 0x1089A3: __game_MOD_shuffle (in /home/amahmood/fortran-practice/chat-5-exercise/chat-5/a.out)
+==164==    by 0x1A00108B4E: ???
+==164==    by 0x108B96: main (in /home/amahmood/fortran-practice/chat-5-exercise/chat-5/a.out)
+==164== 
+==164== Use of uninitialised value of size 8
+==164==    at 0x1089CF: __game_MOD_shuffle (in /home/amahmood/fortran-practice/chat-5-exercise/chat-5/a.out)
+==164==    by 0x300108B4E: ???
+==164==    by 0x108B96: main (in /home/amahmood/fortran-practice/chat-5-exercise/chat-5/a.out)
+==164== 
+==164== Use of uninitialised value of size 8
+==164==    at 0x1089E9: __game_MOD_shuffle (in /home/amahmood/fortran-practice/chat-5-exercise/chat-5/a.out)
+==164==    by 0x300108B4E: ???
+==164==    by 0x108B96: main (in /home/amahmood/fortran-practice/chat-5-exercise/chat-5/a.out)
+==164== 
+==164== Use of uninitialised value of size 8
+==164==    at 0x1089A3: __game_MOD_shuffle (in /home/amahmood/fortran-practice/chat-5-exercise/chat-5/a.out)
+==164==    by 0x1900108B4E: ???
+==164==    by 0x108B96: main (in /home/amahmood/fortran-practice/chat-5-exercise/chat-5/a.out)
+==164== 
+==164== Use of uninitialised value of size 8
+==164==    at 0x1089A3: __game_MOD_shuffle (in /home/amahmood/fortran-practice/chat-5-exercise/chat-5/a.out)
+==164==    by 0x1800108B4E: ???
+==164==    by 0x108B96: main (in /home/amahmood/fortran-practice/chat-5-exercise/chat-5/a.out)
+==164== 
+==164== Use of uninitialised value of size 8
+==164==    at 0x1089CF: __game_MOD_shuffle (in /home/amahmood/fortran-practice/chat-5-exercise/chat-5/a.out)
+==164==    by 0x1500108B4E: ???
+==164==    by 0x108B96: main (in /home/amahmood/fortran-practice/chat-5-exercise/chat-5/a.out)
+==164== 
+==164== Use of uninitialised value of size 8
+==164==    at 0x1089E9: __game_MOD_shuffle (in /home/amahmood/fortran-practice/chat-5-exercise/chat-5/a.out)
+==164==    by 0x1500108B4E: ???
+==164==    by 0x108B96: main (in /home/amahmood/fortran-practice/chat-5-exercise/chat-5/a.out)
+==164== 
+==164== Use of uninitialised value of size 8
+==164==    at 0x1089A3: __game_MOD_shuffle (in /home/amahmood/fortran-practice/chat-5-exercise/chat-5/a.out)
+==164==    by 0x1700108B4E: ???
+==164==    by 0x108B96: main (in /home/amahmood/fortran-practice/chat-5-exercise/chat-5/a.out)
+==164== 
+==164== Use of uninitialised value of size 8
+==164==    at 0x1089A3: __game_MOD_shuffle (in /home/amahmood/fortran-practice/chat-5-exercise/chat-5/a.out)
+==164==    by 0x1600108B4E: ???
+==164==    by 0x108B96: main (in /home/amahmood/fortran-practice/chat-5-exercise/chat-5/a.out)
+==164== 
+==164== Use of uninitialised value of size 8
+==164==    at 0x1089CF: __game_MOD_shuffle (in /home/amahmood/fortran-practice/chat-5-exercise/chat-5/a.out)
+==164==    by 0x1400108B4E: ???
+==164==    by 0x108B96: main (in /home/amahmood/fortran-practice/chat-5-exercise/chat-5/a.out)
+==164== 
+==164== Use of uninitialised value of size 8
+==164==    at 0x1089E9: __game_MOD_shuffle (in /home/amahmood/fortran-practice/chat-5-exercise/chat-5/a.out)
+==164==    by 0x1400108B4E: ???
+==164==    by 0x108B96: main (in /home/amahmood/fortran-practice/chat-5-exercise/chat-5/a.out)
+==164== 
+==164== Use of uninitialised value of size 8
+==164==    at 0x1089A3: __game_MOD_shuffle (in /home/amahmood/fortran-practice/chat-5-exercise/chat-5/a.out)
+==164==    by 0x1500108B4E: ???
+==164==    by 0x108B96: main (in /home/amahmood/fortran-practice/chat-5-exercise/chat-5/a.out)
+==164== 
+==164== Use of uninitialised value of size 8
+==164==    at 0x1089A3: __game_MOD_shuffle (in /home/amahmood/fortran-practice/chat-5-exercise/chat-5/a.out)
+==164==    by 0x1400108B4E: ???
+==164==    by 0x108B96: main (in /home/amahmood/fortran-practice/chat-5-exercise/chat-5/a.out)
+==164== 
+==164== Use of uninitialised value of size 8
+==164==    at 0x1089CF: __game_MOD_shuffle (in /home/amahmood/fortran-practice/chat-5-exercise/chat-5/a.out)
+==164==    by 0xE00108B4E: ???
+==164==    by 0x108B96: main (in /home/amahmood/fortran-practice/chat-5-exercise/chat-5/a.out)
+==164== 
+==164== Use of uninitialised value of size 8
+==164==    at 0x1089E9: __game_MOD_shuffle (in /home/amahmood/fortran-practice/chat-5-exercise/chat-5/a.out)
+==164==    by 0xE00108B4E: ???
+==164==    by 0x108B96: main (in /home/amahmood/fortran-practice/chat-5-exercise/chat-5/a.out)
+==164== 
+==164== Use of uninitialised value of size 8
+==164==    at 0x1089A3: __game_MOD_shuffle (in /home/amahmood/fortran-practice/chat-5-exercise/chat-5/a.out)
+==164==    by 0x1300108B4E: ???
+==164==    by 0x108B96: main (in /home/amahmood/fortran-practice/chat-5-exercise/chat-5/a.out)
+==164== 
+==164== Use of uninitialised value of size 8
+==164==    at 0x1089A3: __game_MOD_shuffle (in /home/amahmood/fortran-practice/chat-5-exercise/chat-5/a.out)
+==164==    by 0x1200108B4E: ???
+==164==    by 0x108B96: main (in /home/amahmood/fortran-practice/chat-5-exercise/chat-5/a.out)
+==164== 
+==164== Use of uninitialised value of size 8
+==164==    at 0x1089CF: __game_MOD_shuffle (in /home/amahmood/fortran-practice/chat-5-exercise/chat-5/a.out)
+==164==    by 0xF00108B4E: ???
+==164==    by 0x108B96: main (in /home/amahmood/fortran-practice/chat-5-exercise/chat-5/a.out)
+==164== 
+==164== Use of uninitialised value of size 8
+==164==    at 0x1089E9: __game_MOD_shuffle (in /home/amahmood/fortran-practice/chat-5-exercise/chat-5/a.out)
+==164==    by 0xF00108B4E: ???
+==164==    by 0x108B96: main (in /home/amahmood/fortran-practice/chat-5-exercise/chat-5/a.out)
+==164== 
+==164== Use of uninitialised value of size 8
+==164==    at 0x1089A3: __game_MOD_shuffle (in /home/amahmood/fortran-practice/chat-5-exercise/chat-5/a.out)
+==164==    by 0x1100108B4E: ???
+==164==    by 0x108B96: main (in /home/amahmood/fortran-practice/chat-5-exercise/chat-5/a.out)
+==164== 
+==164== Use of uninitialised value of size 8
+==164==    at 0x1089A3: __game_MOD_shuffle (in /home/amahmood/fortran-practice/chat-5-exercise/chat-5/a.out)
+==164==    by 0x1000108B4E: ???
+==164==    by 0x108B96: main (in /home/amahmood/fortran-practice/chat-5-exercise/chat-5/a.out)
+==164== 
+==164== Use of uninitialised value of size 8
+==164==    at 0x1089A3: __game_MOD_shuffle (in /home/amahmood/fortran-practice/chat-5-exercise/chat-5/a.out)
+==164==    by 0xF00108B4E: ???
+==164==    by 0x108B96: main (in /home/amahmood/fortran-practice/chat-5-exercise/chat-5/a.out)
+==164== 
+==164== Use of uninitialised value of size 8
+==164==    at 0x1089A3: __game_MOD_shuffle (in /home/amahmood/fortran-practice/chat-5-exercise/chat-5/a.out)
+==164==    by 0xE00108B4E: ???
+==164==    by 0x108B96: main (in /home/amahmood/fortran-practice/chat-5-exercise/chat-5/a.out)
+==164== 
+==164== Use of uninitialised value of size 8
+==164==    at 0x1089CF: __game_MOD_shuffle (in /home/amahmood/fortran-practice/chat-5-exercise/chat-5/a.out)
+==164==    by 0x100108B4E: ???
+==164==    by 0x108B96: main (in /home/amahmood/fortran-practice/chat-5-exercise/chat-5/a.out)
+==164== 
+==164== Use of uninitialised value of size 8
+==164==    at 0x1089E9: __game_MOD_shuffle (in /home/amahmood/fortran-practice/chat-5-exercise/chat-5/a.out)
+==164==    by 0x100108B4E: ???
+==164==    by 0x108B96: main (in /home/amahmood/fortran-practice/chat-5-exercise/chat-5/a.out)
+==164== 
+==164== Use of uninitialised value of size 8
+==164==    at 0x1089A3: __game_MOD_shuffle (in /home/amahmood/fortran-practice/chat-5-exercise/chat-5/a.out)
+==164==    by 0xD00108B4E: ???
+==164==    by 0x108B96: main (in /home/amahmood/fortran-practice/chat-5-exercise/chat-5/a.out)
+==164== 
+==164== Use of uninitialised value of size 8
+==164==    at 0x1089A3: __game_MOD_shuffle (in /home/amahmood/fortran-practice/chat-5-exercise/chat-5/a.out)
+==164==    by 0xC00108B4E: ???
+==164==    by 0x108B96: main (in /home/amahmood/fortran-practice/chat-5-exercise/chat-5/a.out)
+==164== 
+==164== Use of uninitialised value of size 8
+==164==    at 0x1089A3: __game_MOD_shuffle (in /home/amahmood/fortran-practice/chat-5-exercise/chat-5/a.out)
+==164==    by 0xB00108B4E: ???
+==164==    by 0x108B96: main (in /home/amahmood/fortran-practice/chat-5-exercise/chat-5/a.out)
+==164== 
+==164== Use of uninitialised value of size 8
+==164==    at 0x1089A3: __game_MOD_shuffle (in /home/amahmood/fortran-practice/chat-5-exercise/chat-5/a.out)
+==164==    by 0xA00108B4E: ???
+==164==    by 0x108B96: main (in /home/amahmood/fortran-practice/chat-5-exercise/chat-5/a.out)
+==164== 
+==164== Use of uninitialised value of size 8
+==164==    at 0x1089A3: __game_MOD_shuffle (in /home/amahmood/fortran-practice/chat-5-exercise/chat-5/a.out)
+==164==    by 0x900108B4E: ???
+==164==    by 0x108B96: main (in /home/amahmood/fortran-practice/chat-5-exercise/chat-5/a.out)
+==164== 
+==164== Use of uninitialised value of size 8
+==164==    at 0x1089A3: __game_MOD_shuffle (in /home/amahmood/fortran-practice/chat-5-exercise/chat-5/a.out)
+==164==    by 0x800108B4E: ???
+==164==    by 0x108B96: main (in /home/amahmood/fortran-practice/chat-5-exercise/chat-5/a.out)
+==164== 
+==164== Use of uninitialised value of size 8
+==164==    at 0x1089A3: __game_MOD_shuffle (in /home/amahmood/fortran-practice/chat-5-exercise/chat-5/a.out)
+==164==    by 0x700108B4E: ???
+==164==    by 0x108B96: main (in /home/amahmood/fortran-practice/chat-5-exercise/chat-5/a.out)
+==164== 
+==164== Use of uninitialised value of size 8
+==164==    at 0x1089A3: __game_MOD_shuffle (in /home/amahmood/fortran-practice/chat-5-exercise/chat-5/a.out)
+==164==    by 0x600108B4E: ???
+==164==    by 0x108B96: main (in /home/amahmood/fortran-practice/chat-5-exercise/chat-5/a.out)
+==164== 
+==164== Use of uninitialised value of size 8
+==164==    at 0x1089A3: __game_MOD_shuffle (in /home/amahmood/fortran-practice/chat-5-exercise/chat-5/a.out)
+==164==    by 0x500108B4E: ???
+==164==    by 0x108B96: main (in /home/amahmood/fortran-practice/chat-5-exercise/chat-5/a.out)
+==164== 
+==164== Use of uninitialised value of size 8
+==164==    at 0x1089A3: __game_MOD_shuffle (in /home/amahmood/fortran-practice/chat-5-exercise/chat-5/a.out)
+==164==    by 0x400108B4E: ???
+==164==    by 0x108B96: main (in /home/amahmood/fortran-practice/chat-5-exercise/chat-5/a.out)
+==164== 
+==164== 
+==164== More than 100 errors detected.  Subsequent errors
+==164== will still be recorded, but in less detail than before.
+==164== Use of uninitialised value of size 8
+==164==    at 0x1089A3: __game_MOD_shuffle (in /home/amahmood/fortran-practice/chat-5-exercise/chat-5/a.out)
+==164==    by 0x300108B4E: ???
+==164==    by 0x108B96: main (in /home/amahmood/fortran-practice/chat-5-exercise/chat-5/a.out)
+==164== 
+==164== Use of uninitialised value of size 8
+==164==    at 0x1089A3: __game_MOD_shuffle (in /home/amahmood/fortran-practice/chat-5-exercise/chat-5/a.out)
+==164==    by 0x200108B4E: ???
+==164==    by 0x108B96: main (in /home/amahmood/fortran-practice/chat-5-exercise/chat-5/a.out)
+==164== 
+==164== Jump to the invalid address stated on the next line
+==164==    at 0x100108B4F: ???
+==164==    by 0x108B96: main (in /home/amahmood/fortran-practice/chat-5-exercise/chat-5/a.out)
+==164==  Address 0x100108b4f is not stack'd, malloc'd or (recently) free'd
+==164== 
+
+Program received signal SIGSEGV: Segmentation fault - invalid memory reference.
+
+Backtrace for this error:
+==164== Invalid read of size 1
+==164==    at 0x5BF95DF: ??? (in /lib/x86_64-linux-gnu/libgcc_s.so.1)
+==164==    by 0x5BFB137: _Unwind_Backtrace (in /lib/x86_64-linux-gnu/libgcc_s.so.1)
+==164==    by 0x4FEFD38: ??? (in /usr/lib/x86_64-linux-gnu/libgfortran.so.4.0.0)
+==164==    by 0x4E572DA: ??? (in /usr/lib/x86_64-linux-gnu/libgfortran.so.4.0.0)
+==164==    by 0x4E56503: ??? (in /usr/lib/x86_64-linux-gnu/libgfortran.so.4.0.0)
+==164==    by 0x5259F1F: ??? (in /lib/x86_64-linux-gnu/libc-2.27.so)
+==164==    by 0x100108B4E: ???
+==164==    by 0x108B96: main (in /home/amahmood/fortran-practice/chat-5-exercise/chat-5/a.out)
+==164==  Address 0x100108b4f is not stack'd, malloc'd or (recently) free'd
+==164== 
+==164== 
+==164== Process terminating with default action of signal 11 (SIGSEGV): dumping core
+==164==  Access not within mapped region at address 0x100108B4F
+==164==    at 0x5BF95DF: ??? (in /lib/x86_64-linux-gnu/libgcc_s.so.1)
+==164==    by 0x5BFB137: _Unwind_Backtrace (in /lib/x86_64-linux-gnu/libgcc_s.so.1)
+==164==    by 0x4FEFD38: ??? (in /usr/lib/x86_64-linux-gnu/libgfortran.so.4.0.0)
+==164==    by 0x4E572DA: ??? (in /usr/lib/x86_64-linux-gnu/libgfortran.so.4.0.0)
+==164==    by 0x4E56503: ??? (in /usr/lib/x86_64-linux-gnu/libgfortran.so.4.0.0)
+==164==    by 0x5259F1F: ??? (in /lib/x86_64-linux-gnu/libc-2.27.so)
+==164==    by 0x100108B4E: ???
+==164==    by 0x108B96: main (in /home/amahmood/fortran-practice/chat-5-exercise/chat-5/a.out)
+==164==  If you believe this happened as a result of a stack
+==164==  overflow in your program's main thread (unlikely but
+==164==  possible), you can try to increase the size of the
+==164==  main thread stack using the --main-stacksize= flag.
+==164==  The main thread stack size used in this run was 8388608.
+==164== 
+==164== HEAP SUMMARY:
+==164==     in use at exit: 21,740 bytes in 19 blocks
+==164==   total heap usage: 23 allocs, 4 frees, 29,880 bytes allocated
+==164== 
+==164== LEAK SUMMARY:
+==164==    definitely lost: 0 bytes in 0 blocks
+==164==    indirectly lost: 0 bytes in 0 blocks
+==164==      possibly lost: 0 bytes in 0 blocks
+==164==    still reachable: 21,740 bytes in 19 blocks
+==164==         suppressed: 0 bytes in 0 blocks
+==164== Rerun with --leak-check=full to see details of leaked memory
+==164== 
+==164== For counts of detected and suppressed errors, rerun with: -v
+==164== Use --track-origins=yes to see where uninitialised values come from
+==164== ERROR SUMMARY: 158 errors from 104 contexts (suppressed: 0 from 0)

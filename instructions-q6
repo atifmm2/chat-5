@@ -1,0 +1,73 @@
+     						
+Instruction for q6
+
+
+						 Compling a function/module/subroutine with out any main
+
+ 2770  vim q6.f90 g
+ 2771  gfortran q6.f90 
+ 2772  vim q6.f90 g
+ 2773  gfortran q6.f90 
+ 2774  vim q6.f90 g
+ 2775  gfortran q6.f90 
+ 2776  gfortran q6.f90 > x 2>&1
+ 2777  vim x
+ 2778  vim q6.f90 g
+ 2779  vim x
+ 2780  vim q6.f90 g
+ 2781  vim q6.f90 
+ 2782  gfortran q6.f90 > x 2>&1
+ 2783  vim x
+ 2784  vim q6.f90 
+ 2785  gfortran q6.f90 
+ 2786  gfortran q6.f90 > x 2>&1
+ 2787  vim x
+ 2788  vim q6.f90 
+ 2789  gfortran q6.f90 > x 2>&1
+ 2790  vim x
+ 2791  vim q6.f90 
+ 2792  gfortran q6.f90 
+ 2793  vim q6.f90 
+ 2794  gfortran q6.f90 
+ 2795  vim q6.f90 
+ 2796  gfortran q6.f90 
+ 2797  vim q6.f90 
+ 2798  gfortran q6.f90 
+ 2799  gfortran -c q6.f90 
+ 2800  ls -l
+ 2801  f90 -c q6.f90 
+ 2802  vim game.mod 
+ 2803  vim q6.f90 
+ 2804  vim q6-main.f90
+ 2805  gfortran q6-main.f90 
+ 2806  vim q6-main.f90
+ 2807  gfortran q6-main.f90 
+ 2808  vim q6.f90 
+ 2809  vim q6-main.f90
+ 2810  gfortran q6-main.f90 
+ 2811  vim q6-main.f90
+ 2812  gfortran q6-main.f90 
+ 2813  gfortran -c q6.f90 
+ 2814  gfortran q6-main.f90 
+ 2815  gfortran q6.f90 q6-main.f90 
+ 2816  ./a.out 
+ 2817  gfortran q6-main.f90 game.mod 
+ 2818  gfortran q6-main.f90 q6.o
+ 2819  ./a.out 
+ 
+                				  Use of valgrinf to debugging the hidden errors in the code
+
+ 2820  sudo apt-get install valgrind
+ 2821  ls
+ 2822  which valgrind
+ 2823  valgrind ./a.out 
+ 2824  valgrind ./a.out > foo
+ 2825  valgrind ./a.out > foo 2>&1
+ 2826  vim foo 
+ 2827  gfortran -g q6-main.f90 q6.f90 
+ 2828  valgrind ./a.out > foo 2>&1
+ 2829  vim foo 
+ 2830  vim q6-main.f90 
+ 2831  vim q6.f90 
+ 2832  exit
+ 2843  history | vim -

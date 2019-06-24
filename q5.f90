@@ -1,6 +1,6 @@
 real function calculate(r,l) result(v) 
 
-real :: pi = 3.1415
+real,parameter :: pi = acos(-1.0)
 real :: r,l
 !real :: v
 
